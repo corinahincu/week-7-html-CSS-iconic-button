@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>A CSS Button with TEXT & ICON</title>
+</head>
+<body>
+  <h1>A CSS Button with TEXT & ICON</h1>
+  <!--  
+    button, a
+
+    BEM 
+    btn - common button styles 
+    btn-download - specific button styles
+  -->
+  <div class="btn-wrapper">
+    <a class="btn btn-download" href="/download"> 
+      <i class="fa-solid fa-cloud-arrow-down"></i> <span> Download</span> 
+    </a>
+  </div>
+
+  <div class="btn-wrapper btn-wrapper-upload">
+    <a class="btn btn-upload" href="/upload"> 
+      <i class="fa-solid fa-arrow-up-from-bracket"></i> <span> Upload </span> 
+    </a>
+  </div>
+</body>
+</html>
+
+<!--  
+  HM1:
+  create another button variant
+  HM2: 
+  using :hover pseudo selector, make it so when the user hovers the mouse over the button, the background becomes darker
+-->

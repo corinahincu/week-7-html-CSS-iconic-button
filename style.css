@@ -1,0 +1,86 @@
+.btn-wrapper {
+  border: 1px solid black;
+  height: 51px;
+  width: 210px;
+  
+}
+
+.btn {
+  display: inline-block;
+  width: 208px;
+  height: 52px;
+
+  border-radius: 26px ;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+
+  line-height: 52px;
+  
+  box-shadow: 0 2px 3px 0 #55555557;
+  
+}
+
+/*DOWNLOAD BUTTON*/
+
+.btn-download {
+  background-color: #91c53f;
+  color: white;
+
+}
+
+.btn i {
+  width: 52px;
+  height: 52px;
+
+  /*transform: translateY(-16px);*/
+
+  border-radius: 26px;
+
+  text-align: center;
+  line-height: 53px;
+
+  font-size: 30px;
+  
+  box-shadow: 0 2px 3px 0 #55555557;
+}
+
+.btn-download i {
+  background-color: #fff;
+  color: #91c53f;
+}
+
+.btn span {
+  display: inline-block;
+  transform: translateY(-5px);
+  width: 134px;
+  text-align: center;
+  letter-spacing: .7px;
+}
+.btn-download:hover {
+  background-color: #506e1f;
+}
+
+/*Upload Button*/
+.btn-wrapper-upload {
+  margin-top: 17px;
+}
+.btn-upload {
+  background-color: #ec1b30;
+  color: white;
+
+
+}
+
+.btn-upload i {
+  background-color: #fff;
+  color: #ec1b30;
+}
+
+.btn-upload:hover {
+  background-color: #9b1522;
+}
